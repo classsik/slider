@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header {
+    padding-top: 51px;
+    padding-bottom: 41px;
+}
+
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header__logo-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+    gap: 45px;
+}
+
+.header__menu-item a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+}
+
+.header__menu-item.active a {
+    font-weight: 700;
+    color: #6E9C9F;
+}
+
+.header__number {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.header__number-text {
+    font-size: 15px;
+}
+
+.header__button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.cta__swiper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta__left,
+.cta__right {
+    flex: 1;
+}
+
+.cta__title {
+    font-size: 55px;
+    font-weight: 500;
+    margin-bottom: 45px;
+}
+
+.cta__subtitle {
+    width: 370px;
+    text-align: right;
+    margin-bottom: 50px;
+}
+
+.cta__button {
+    display: flex;
+    align-items: center;
+    width: 310px;
+    height: 68px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 60px
+}
+
+.cta__button-arrow {
+    width: 68px;
+    background: rgba(110, 156, 159, 0.1);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta__button-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    background: #6E9C9F;
+    height: 100%;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+
+.cta__right {
+    position: relative;
+}
+
+.cta__right-third {
+    position: absolute;
+    bottom: -60px;
+    left: -70px;
+}
+
+.cta__right-second {
+    position: absolute;
+    top: 100px;
+    right: 0;
+}
+
+.cta__image {
+    margin-left: 50px;
+}
+
+.bg {
+    position: absolute;
+    background: #F1EADC;
+    width: 720px;
+    height: 826px;
+    z-index: -1;
+    top: 0;
+    right: 0;
+}
+
+.cta__pagination {
+    display: flex;
+    gap: 12px;
+    margin-top: 100px;
+    justify-content: flex-end;
+    margin-right: 190px;
+}
+
+.cta__pagination-item {
+    width: 30px;
+    height: 4px;
+    background: #D1D1D1;
+    cursor: pointer;
+}
+
+.cta__pagination-item.active {
+    background: #000;
+}
